@@ -1,69 +1,104 @@
-body{
-	max-width: 1024px;
-	margin: 0 auto;
-	font-family: sans-serif;
+body {
+    max-width: 1024px;
+    margin: 0 auto;
+    font-family: sans-serif;
     font-size: 0.875em;
     line-height: 1.6em;
     background-color: white;
 }
-html,body {
-	width: 100%;
-	height: 100%;
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
 }
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
 .navbar {
     display: flex;
     justify-content: space-around;
     list-style: none;
-    border-color: red;
-    border-width: 2px;
-    border-style: solid;
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 10px;
 }
-.header-col {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    justify-content: space-between;
-}
-.topgameimg img{
+
+.topgameimg img {
     display: flex;
     max-width: 230px;
     max-height: 400px;
     min-width: 175px;
     min-height: 300px;
 }
-header {
+
+.top {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    background-color: gray;
-    border-color: red;
-    border-width: 2px;
-    border-style: solid;
-    max-height:400px;
 }
+
 .logo img {
     max-width: 240px;
     max-height: 240px;
     flex: 1;
     min-width: 80px;
     min-height: 80px;
-    margin: 0px 0px 
+    margin: 0px 0px
 }
+
 .website {
     font-weight: bold;
     font-size: large;
 }
+
 .logo {
     display: flex;
     justify-content: space-between;
 }
+
 .description {
     font-size: medium;
 }
+
 .name {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     flex: 1;
+}
+
+.main-info {
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px auto;
+}
+
+.main {
+    border-color: red;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.aside-content {
+    border-top-color: blue;
+    border-top-width: 2px;
+    border-top-style: solid;
+}
+
+header {
+    max-height: 320px;
+    margin: 0px;
+    border-color: red;
+    border-width: 0px 2px 2px 2px;
+    border-style: solid;
+    background: grey url(img/header-background.jpg) repeat fixed;
 }
