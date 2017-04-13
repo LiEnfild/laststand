@@ -194,3 +194,6 @@ footer {
 .slider img {
   height: 560px;
 }
+footer p {
+  padding-bottom: 1px;
+}
