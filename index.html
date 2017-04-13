@@ -6,8 +6,6 @@
     <title>Fenris</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel=stylesheet href="css/index.css">
-    <script src="//code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-    <script src="js/index.js"></script>
 </head>
 
 <body>
@@ -20,9 +18,9 @@
     </header>
     <nav>
         <ul class="navbar">
-            <li>Home</li>
-            <li>About</li>
-            <li>Contacts</li>
+            <li><a href="index.html">Главная страница</a></li>
+            <li><a href="#about">О нас</a></li>
+            <li><a href="#contacts">Контакты</a></li>
         </ul>
     </nav>
     <div class="main-info">
@@ -37,15 +35,15 @@
             </article>
         </div>
         <main class="main-content">
-            <article class="about">
+            <article class="about" id="about">
                 <h1>О нас</h1>
-                <p>Добро пожаловать на Фенрис, мы рады вас видеть!</p>
+                <p>Добро пожаловать на Фенрис, мы рады Вас видеть!</p>
                 <p>Главная цель этого сайта - продажа компьютерных игр по максимально возможной скидке, которую нам удастся найти. Для этого мы регулярно контактируем как с разработчиками игр, так и с другими игровыми порталами.</p>
-                <p>Следует отметить, что из-за ограниченого количества удешевленных предложений по покупке игр, все заказы принимаются лично нашей командой через контактную почту. Таким образом сайт не подобен на большинство интернет-магазинов, каждый заказ
-                    для нас - индивидуален, на сайте же будут показаны новые предложения от спонсоров сайта и наших сотрудников.</p>
-                <p>Для заказа продукта, воспользуйтесь, пожалуйста, контактной формой, расположенной ниже.</p>
+                <p>Все заказы мы принимаем через контактную почту, тем самым подчеркивая, что наш сайт не похож на большинство интернет-магазинов, каждый клиент и его пожелание для нас - индивидуальны.</p>
+                <p>На сайте же мы размещаем те предложения, которые на данный момент популярны и распостронены.</p>
+                <p>Для заказа продукта, воспользуйтесь, пожалуйста, контактной формой, а именно: укажите ваше имя, електронный адрес, </p>
                 <p>Если желаемого вами игры нет среди наших сегодняшних предложений, то поиск требуемой игры за относительно дешевую цену может занять время, проявите, пожалуйста, терпение.</p>
-                <p>Благодарим за внимание.</p>
+                <p>Благодарим Вас за внимание.</p>
             </article>
         </main>
         <div class="fenris-proposition">
@@ -63,12 +61,31 @@
             </div>
         </div>
     </div>
-    <div class="contacts">
-
-    </div>
-    <footer>
-
-    </footer>
+    <div id="contacts">
+        <div class="myform">
+            <h3 class="list">Контактная форма</h3>
+            <form method="POST" action="https://formspree.io/stasgon@bk.ru">
+                <input type="text" placeholder="Имя" id="name" required>
+                <br>
+                <input type="email" placeholder="E-mail" id="email" required>
+                <br>
+                <input type="text" placeholder="Номер телефона" id="telephone" required>
+                <br>
+                <textarea placeholder="Ваш комментарий или заказ" id="message" required></textarea>
+                <br>
+                <div class="button">
+                    <input type="submit" value="Отослать" class="btn-submit">
+                    <input type="reset" value="Очистить">
+                </div>
+            </form>
+        </div>
+        <footer>
+            <p>Stanislav Gonyk</p>
+            <p>Fenris.com, All Rights Reserved, 2017</p>
+        </footer>
+    <script src="//code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="js/smooth.js"></script>
+    <script src="js/index.js"></script>
 </body>
 
 </html>
