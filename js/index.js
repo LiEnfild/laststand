@@ -136,10 +136,13 @@ function sendForm(e) {
       data: {
         clientName: $("#name").val(),
         clientEmail: $("#email").val(),
-        comment: $("#message").val(),
+        comment: $("#deal").val(),
         phoneNumber: $("#telephone").val()
       },
       dataType: "json"
+    })
+    .done(function() {
+        $('#message').html('Thank you for contacting us!');    
     });
   }
 }
