@@ -61,7 +61,7 @@ nav {
   border-color: red;
   border-width: 0px 0px 2px 0px;
   border-style: solid;
-  background: url(/images/header-background.jpg) fixed repeat;
+  background: url(images/header-background.jpg) fixed repeat;
   background-position: 650px 650px;
   background-size: contain;
   vertical-align: central;
@@ -102,12 +102,12 @@ nav {
 
 .slider-box .prev {
   left: 10px;
-  background: url(/images/slider_controls.png) no-repeat 0 0;
+  background: url(images/slider_controls.png) no-repeat 0 0;
 }
 
 .slider-box .next {
   right: 10px;
-  background: url(/images/slider_controls.png) no-repeat -29px 0;
+  background: url(images/slider_controls.png) no-repeat -29px 0;
 }
 
 .bullets {
@@ -126,7 +126,7 @@ nav {
   margin: 0 3px 0 0;
   padding: 0;
   float: left;
-  background: url(../images/slider_controls.png) no-repeat 0 -30px;
+  background: url(images/slider_controls.png) no-repeat 0 -30px;
 }
 
 .bullets li.active {
@@ -183,7 +183,7 @@ footer {
   border-color: red;
   border-width: 2px 0px 0px 0px;
   border-style: solid;
-  background: url(../images/header-background.jpg) fixed;
+  background: url(images/header-background.jpg) fixed;
   background-position: 650px 650px;
   background-size: contain;
   vertical-align: central;
