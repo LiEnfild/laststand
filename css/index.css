@@ -4,7 +4,7 @@ body {
   font-family: sans-serif;
   font-size: 0.875em;
   line-height: 1.6em;
-  background-color: #EEE
+  background-color: #DDD;
 }
 html,
 body {
@@ -151,7 +151,6 @@ nav {
   flex: 1;
   min-width: 140px;
 }
-
 input[type="text"],
 input[type="email"],
 textarea[placeholder="Ваш комментарий или заказ"] {
