@@ -153,6 +153,8 @@ nav {
   background-color: #222;
   color: #EEE;
   padding: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
 }
 input[type="text"],
 input[type="email"],
