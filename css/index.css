@@ -146,16 +146,6 @@ nav {
   margin-right: 5px;
   margin-left: 5px;
 }
-
-.sponsor-proposition {
-  flex: 1;
-  min-width: 140px;
-  background-color: #222;
-  color: #EEE;
-  padding: 5px;
-  margin-right: 5px;
-  margin-left: 5px;
-}
 input[type="text"],
 input[type="email"],
 textarea[placeholder="Ваш комментарий или заказ"] {
@@ -200,4 +190,13 @@ footer {
 }
 footer p {
   padding-bottom: 1px;
+}
+.sponsor-proposition {
+  flex: 1;
+  min-width: 140px;
+  background-color: #222;
+  color: #EEE;
+  padding: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
 }
